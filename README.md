@@ -26,7 +26,7 @@ genoml-inference --valid-geno-prefix=[geno_file] --valid-pheno-file=[pheno_file]
 ```
 
 ## Depends on...
-...python 3 and pip
+...python 3 and pip.
 
 ## For questions, comments, requests or collaborations
-(Faraz Faghri)[faraz.faghri@gmail.com], (Hampton Leonard)[hampton.leonard@nih.gov], (Sayed Hadi Hashemi)[sayedhadihashemi@gmail.com], (Juan Botia)[juanbotiablaya@gmail.com], and (Mike Nalls)[mike@datatecnica.com]
+[Faraz Faghri](faraz.faghri@gmail.com), [Hampton Leonard](hampton.leonard@nih.gov), [Sayed Hadi Hashemi](sayedhadihashemi@gmail.com), [Juan Botia](juanbotiablaya@gmail.com), and [Mike Nalls](mike@datatecnica.com)
