@@ -2,8 +2,7 @@
 The briefest intro to our genomics focused automated machine learning pipeline.
 
 ## For additional details see...
-... its home on [PIP](https://pypi.org/project/genoml/)
-... or its own [website](https://genoml.github.io)
+... its home on [PIP](https://pypi.org/project/genoml/) or its own [website](https://genoml.github.io).
 
 ## Three lines for a quick run
 #### Install it
