@@ -6,12 +6,12 @@ The briefest intro to our genomics focused automated machine learning pipeline.
 ... or its own [website](https://genoml.github.io)
 
 ## Three lines for a quick run
-##### Install it
+#### Install it
 ```
 pip install genoml
 ```
 
-##### Train it
+#### Train it
 ```
 genoml-train   --geno-file=[geno_file] --pheno-file=[pheno_file] 
 ```
@@ -21,7 +21,7 @@ Additional possible options include:
 ```
 Although "herit" is not recommended if you are in a hurry due to runtime issues
 
-##### Validate it
+#### Validate it
 ```
 genoml-inference --valid-geno-prefix=[geno_file] --valid-pheno-file=[pheno_file]
 ```
