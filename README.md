@@ -16,23 +16,23 @@ genoml-train   --geno-file=[geno_file] --pheno-file=[pheno_file]
 ```
 Additional possible options include: 
 ```
---gwas-file=[file] --cov-file=[file] --herit=[number] --addit-file=[addit]
+--gwas-file=[file] --cov-file=[file] --herit=[number] --addit-file=[addit] --n-cores=[number]
 ```
 Although "herit" is not recommended if you are in a hurry due to runtime issues
 
 #### Validate it
 ```
-genoml-inference --valid-geno-prefix=[geno_file] --valid-pheno-file=[pheno_file]
+genoml-inference --valid-geno-prefix=[geno_file] --valid-pheno-file=[pheno_file] --valid-dir=[file]
 ```
 
 ## Depends on...
-...python 3.6 or later and pip.
+...python 3.6, R > 3.5.0 or later and pip.
 
 ## Example using data from this repository
 ```
 pip install genoml
-genoml-train --geno-prefix=./exampleData/training --pheno-file=./exampleData/training.pheno --model-file=./testing
-genoml-inference --model-file=./testing --valid-geno-prefix=./exampleData/validation --valid-pheno-file=./exampleData/validation.pheno --valid-dir=./output
+genoml-train --geno-prefix=./exampleData/training --pheno-file=./exampleData/training.pheno --model-file=./testTrain --n-cores=8
+genoml-inference --model-file=./testTrain --valid-dir=./testValidate --valid-geno-prefix=./exampleData/validation --valid-pheno-file=./exampleData/validation.pheno
 ```
 
 ## For questions, comments, requests or collaborations
