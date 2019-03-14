@@ -26,7 +26,14 @@ genoml-inference --valid-geno-prefix=[geno_file] --valid-pheno-file=[pheno_file]
 ```
 
 ## Depends on...
-...python 3 and pip.
+...python 3.6 or later and pip.
+
+## Example using data from this repository
+```
+pip install genoml
+genoml-train --geno-prefix=./exampleData/training --pheno-file=./exampleData/training.pheno --model-file=./model
+genoml-inference --model-file=./model --valid-geno-prefix=./exampleData/validation --valid-pheno-file=./exampleData/validation.pheno --valid-dir=./temp/out
+```
 
 ## For questions, comments, requests or collaborations
 [Faraz Faghri](faraz.faghri@gmail.com), [Hampton Leonard](hampton.leonard@nih.gov), [Sayed Hadi Hashemi](sayedhadihashemi@gmail.com), [Juan Botia](juanbotiablaya@gmail.com), and [Mike Nalls](mike@datatecnica.com)
