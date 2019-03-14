@@ -31,8 +31,8 @@ genoml-inference --valid-geno-prefix=[geno_file] --valid-pheno-file=[pheno_file]
 ## Example using data from this repository
 ```
 pip install genoml
-genoml-train --geno-prefix=./exampleData/training --pheno-file=./exampleData/training.pheno --model-file=./testModel
-genoml-inference --model-file=./testModel --valid-geno-prefix=./exampleData/validation --valid-pheno-file=./exampleData/validation.pheno --valid-dir=./testOut
+genoml-train --geno-prefix=./exampleData/training --pheno-file=./exampleData/training.pheno --model-file=./testing
+genoml-inference --model-file=./testing --valid-geno-prefix=./exampleData/validation --valid-pheno-file=./exampleData/validation.pheno --valid-dir=./output
 ```
 
 ## For questions, comments, requests or collaborations
